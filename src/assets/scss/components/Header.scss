@@ -1,0 +1,64 @@
+.container{
+	font-family:'Nexa-Trial';
+	display: flex;
+	align-items: center;
+	height: 120px;
+	padding: 10px;
+	z-index: 1;
+	
+}
+.img-logo {
+	width: 80px;
+	height: 63px;
+	margin-right: 68px;
+	line-height: 21px;
+	margin-top: 32px;
+}
+.nav-list{
+	margin: 0;
+	padding: 0;
+	margin-top: 53px;
+	
+}
+.nav-list > li{
+	
+	list-style: none;
+	display:inline-block;
+	margin-right: 32px;
+	
+}
+.nav-list > li>a{
+font-size: 14px;
+font-weight: 200;
+text-decoration:none;
+color: #333;
+}
+.btn-book-oxley{
+	line-height: 21px;
+	font-size: 14px;
+	font-weight: 800;
+	color: white;
+	margin-left:120px ;
+	width: 134px;
+	height: 37px;
+	border-radius: 40px;
+	background: #57DBC5;
+	border: 1px solid #57DBC5;
+	margin-right: 30px;
+	margin-top: 53px;
+}
+.btn-book-can{
+	line-height: 21px;
+	font-size: 14px;
+	width: 181px;
+	height: 37px;
+	margin-top: 53px;
+	border-radius: 40px;
+	font-weight: 800;
+	background: #6A6A6A;
+	color:#fff;
+	border: 1px solid #6A6A6A;
+
+
+}
+
