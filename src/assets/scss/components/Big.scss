@@ -1,0 +1,66 @@
+.ReactPlayer >video{
+    position: relative;
+    width: 838px;
+    height: 489px;
+    line-height: 21px;
+}
+.btn-player{
+    position: absolute;
+    width:80px;
+    height: 80px;
+    border-radius: 50px;
+    top: 40%;
+    left: 30%;
+    opacity: 0.5;
+    border:1px solid #fff;
+
+}
+.Head-one{
+    font-family: 'Nexa-Trial';
+    font-size: 48px;
+    width: 900;
+    line-height: 57px;
+    width: 500px;
+    height: 116px;
+    float: right;
+    margin-left: 70px;
+    margin-top: -213px;
+}
+.Head-one>p{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Montserrat';
+    margin-top: 24px;
+    line-height: 29px;
+}
+.btn-book-oxley-big{
+    line-height: 21px;
+	font-size: 18px;
+	font-weight: 700;
+	color: white;
+	margin-left:120px ;
+	width: 145px;
+	height: 51px;
+	border-radius: 40px;
+	background: #57DBC5;
+	border: 1px solid #57DBC5;
+	margin-right: 30px;
+	margin-top: 211px;
+    margin-left: -457px;
+}
+.btn-book-can-big{
+    line-height: 21px;
+	font-size: 18px;
+	width: 206px;
+	height: 51px;
+	margin-top: 53px;
+	border-radius: 40px;
+	font-weight: 700;
+	background: #6A6A6A;
+	color:#fff;
+	border: 1px solid #6A6A6A;
+
+}
+.react-player{
+    border-radius: 50px;
+}
