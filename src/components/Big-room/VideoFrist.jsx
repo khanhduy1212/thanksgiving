@@ -10,22 +10,25 @@ export default function VideoFrist(){
     }
     return(
       <>
-          <div style={{ width: '838px', height: '489px', margin: 'auto', }}>
+          <div className="player-warrper" style={{ width: '838px', height: '489px', marginLeft:'7px', }}>
       <ReactPlayer
         url='/public/video/Thanksgiving serviced Residence.mp4'
-        width='100%'
-        height='100%'
-        border-Radius='50px'
-        playing={!playing}
+        width='838px'
+        height='489px'
+        position='absolute'
+        
+        playing={playing}
         ref={playerRef}
+        
        
         className='react-player'
       />
-      </div>
-      <button className="btn-player" onClick={handlePlayPause}>
+       <button className="btn-player" onClick={handlePlayPause}>
         <FontAwesomeIcon icon ={faPlay} 
         style={{color:'white',width:'30px',height:'37px',opacity:'1', border:'1px soid #000'}}/>
       </button>
+      </div>
+     
         </>
     ) 
     
