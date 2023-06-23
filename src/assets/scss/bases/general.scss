@@ -1,0 +1,27 @@
+$primary-color:#57DBC5;
+$secondary-color: #6A6A6A;
+@font-face{
+    font-family:'NexaTrialExtraBold';
+    src:local(NexaTrialExtraBold), url("/src/assets/font/Nexa-Trial-ExtraBold.woff") format("truetype");
+    font-weight: bold;
+}
+@font-face{
+    font-family:'NexaTrialLight';
+    src:local(NexaTrialLight), url("/src/assets/font/Nexa-Trial-Light.woff") format("truetype");
+    font-weight: bold;
+}
+@font-face{
+    font-family:'NexaTrialRegular';
+    src:local(NexaTrialRegular), url("/src/assets/font/Nexa-Trial-Regular.woff") format("truetype");
+    font-weight: bold;
+}
+@font-face{
+    font-family:'MontserratBold';
+    src:local(MontserratBold), url("/src/assets/font/Montserrat-Bold.woff") format("truetype");
+    font-weight: bold;
+}
+@font-face{
+    font-family:'MontserratRegular';
+    src:local(MontserratRegular), url("/src/assets/font/Montserrat-Regular.woff") format("truetype");
+    font-weight: bold;
+}   
