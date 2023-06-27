@@ -1,4 +1,4 @@
-import { Container } from "react-bootstrap"
+
 
 
 function SpaciousContent() {
@@ -9,7 +9,7 @@ function SpaciousContent() {
         Spacious Service<br></br>
      Apartment in Singapore
     </h3>
-    <Container>
+   
     <div className="container-content">
     <div className="right-column">
    <p> We understand the challenges that come with finding safe, <br/>
@@ -46,7 +46,7 @@ function SpaciousContent() {
      <p>Book your stay today! </p>
     </div>
     </div>
-    </Container>
+ 
     </>
   )
 }

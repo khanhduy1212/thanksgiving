@@ -1,0 +1,56 @@
+.container-gallery{
+    height: 678px;
+}
+.Gallery-picture{
+    height: 560px;
+}
+.content-title{
+text-align: center;
+font-family: 'Montserrat';
+font-size: 16px;
+color: $secondary-color;
+}
+.picture-one{
+    border-radius: 20px;
+    margin-left: 8%;
+    margin-top: 193px;
+}
+.picture-two{
+    border-radius: 20px;
+    margin-bottom: 24px;
+}
+.picture-three{
+    border-radius: 20px;
+
+}
+.picture-four{
+    border-radius: 20px;
+    margin-left: 43.4%;
+    margin-top: -32.4%;
+}
+.picture-five{
+    border-radius: 20px;
+    margin-bottom: 24px;
+}
+.picture-six{
+    display: flex;
+    border-radius: 20px;
+}
+.picture-seven{
+    float: right;
+    margin-top: -21.8%;
+    margin-right: 77px;
+    border-radius: 20px;
+}
+.column-one-picture{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25.7%;
+    margin-top: -333px;
+}
+.column-two-picture{
+    display: flex;
+   flex-direction: column;
+   margin-left: 61.1%;
+   margin-top: -32.3%;
+}

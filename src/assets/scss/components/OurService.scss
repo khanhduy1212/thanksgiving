@@ -1,0 +1,125 @@
+.head-three-service {
+  color: $secondary-color;
+  text-align: center;
+  font-size: 32px;
+  font-family: Nexa-Trial;
+  font-weight: 900;
+  line-height: 120%;
+  margin-top: 64px;
+}
+.head-four-service {
+  color: $secondary-color;
+  font-size: 24px;
+  font-family: Nexa-Trial;
+  font-weight: 900;
+  line-height: 120%;
+  margin-top: 45px;
+  margin-bottom: 67px;
+  margin-left: 15%;
+}
+.view-pot {
+  color: $primary-color;
+  font-size: 16px;
+  font-family: "NextTrial";
+  font-weight: 900;
+  margin-left: 15%;
+  cursor: pointer;
+}
+.service-one {
+  display: flex;
+  width: 808px;
+  height: 188px;
+  margin-left: 30%;
+  margin-top: -146px;
+}
+.Item-one > a {
+  display: flex;
+  color: #6a6a6a;
+  font-size: 16px;
+  font-family: "Montserrat";
+  text-decoration: none;
+  margin-right: 32px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+.Item-one > a > img {
+  margin-right: 15px;
+}
+.Item-two > a {
+  display: flex;
+  color: #6a6a6a;
+  font-size: 16px;
+  font-family: "Montserrat";
+  text-decoration: none;
+  margin-right: 32px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+.Item-two > a > img {
+  margin-right: 15px;
+}
+.Item-three > a {
+  display: flex;
+  color: #6a6a6a;
+  font-size: 16px;
+  font-family: "Montserrat";
+  text-decoration: none;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+.Item-three > a > img {
+  margin-right: 15px;
+}
+.only-oxley {
+  font-weight: 900;
+  font-family: "NextTrial";
+  color: $secondary-color;
+  margin-left: 30%;
+  margin-top: 86px;
+}
+.service-two {
+  display: flex;
+  width: 808px;
+  height: 188px;
+  margin-left: 30%;
+  margin-top: 30px;
+}
+.service-two-item-one > a {
+  display: flex;
+  color: #6a6a6a;
+  font-size: 16px;
+  font-family: "Montserrat";
+  text-decoration: none;
+  margin-right: 110px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+.service-two-item-one > a > img {
+  margin-right: 15px;
+}
+.service-two-item-two > a {
+  display: flex;
+  color: #6a6a6a;
+  font-size: 16px;
+  font-family: "Montserrat";
+  text-decoration: none;
+  margin-right: 32px;
+  line-height: 24px;
+  margin-bottom: 24px;
+  margin-right: 140px;
+}
+.service-two-item-two > a > img {
+  margin-right: 15px;
+}
+.service-two-item-three > a {
+  display: flex;
+  color: #6a6a6a;
+  font-size: 16px;
+  font-family: "Montserrat";
+  text-decoration: none;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+.service-two-item-three > a > img {
+  margin-right: 15px;
+}

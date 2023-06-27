@@ -1,0 +1,53 @@
+.resident-container {
+  height: 1538px;
+  margin-top: 98px;
+}
+.btn-orchard{
+    font-family: 'Montserrat';
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    width: 323px;
+    height: 53px;
+    background-color:$primary-color;
+    color:$button-color;
+    border-radius: 40px;
+    border: $border-primary;
+    margin-left: 30%;
+    margin-right: 24px;
+}
+.btn-downtown{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    height: 53px;
+    width: 271px;
+    background-color: $button-color;
+    color: $secondary-color;
+    border-radius: 40px;
+    border: 1px solid $secondary-color;
+}
+.Head-three-resident{
+    font-family: 'NexaTrial';
+    font-size: 32px;
+    color:  #6A6A6A;
+    font-weight: 900;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 24px;
+}
+.title-local-resident{
+    margin-left: 36%;
+    margin-top: 13px;
+    margin-right: 1px;
+    display: flex;
+}
+.title-head{
+    font-family: 'NexaTrial';
+    font-weight: 500;
+    font-size: 18px;
+    color: $primary-color;
+    margin-left: 8px;
+   
+}
