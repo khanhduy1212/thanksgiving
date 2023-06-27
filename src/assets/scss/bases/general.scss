@@ -1,27 +1,139 @@
 $primary-color:#57DBC5;
 $secondary-color: #6A6A6A;
+$title-color:#000;
+$border-sencondary: 1px solid $secondary-color;
+$border-primary:1px solid $primary-color;
+$button-color:#fff;
+
 @font-face{
-    font-family:'NexaTrialExtraBold';
+    font-family:'NexaTrial';
     src:local(NexaTrialExtraBold), url("/src/assets/font/Nexa-Trial-ExtraBold.woff") format("truetype");
-    font-weight: bold;
+    font-weight: 200;
 }
 @font-face{
-    font-family:'NexaTrialLight';
+    font-family:'NexaTrial';
     src:local(NexaTrialLight), url("/src/assets/font/Nexa-Trial-Light.woff") format("truetype");
-    font-weight: bold;
+    font-weight: 300;
 }
 @font-face{
-    font-family:'NexaTrialRegular';
+    font-family:'NexaTrial';
     src:local(NexaTrialRegular), url("/src/assets/font/Nexa-Trial-Regular.woff") format("truetype");
-    font-weight: bold;
+    font-weight: 400;
 }
 @font-face{
-    font-family:'MontserratBold';
-    src:local(MontserratBold), url("/src/assets/font/Montserrat-Bold.woff") format("truetype");
-    font-weight: bold;
+    font-family:'Montserrat';
+    src:local(Montserrat), url("/src/assets/font/Montserrat-Bold.woff") format("truetype");
+    font-weight: 700;
 }
 @font-face{
-    font-family:'MontserratRegular';
-    src:local(MontserratRegular), url("/src/assets/font/Montserrat-Regular.woff") format("truetype");
-    font-weight: bold;
+    font-family:'Montserrat';
+    src:local(Montserrat), url("/src/assets/font/Montserrat-Regular.woff") format("truetype");
+    font-weight: 400;
 }   
+
+
+.big-container{
+    padding: 0 23px;
+    max-width: 1374px;
+    margin: auto;
+
+}
+
+.container{
+    padding: 0 23px;
+    max-width: 1086px;
+    margin: auto;
+   
+}
+.Header{
+ 
+}
+.img-logo{
+    margin-top: 32px;
+    margin-bottom: -32px;
+}
+.nav-list{
+    display: flex;
+    margin-left:68px;
+    flex-grow: 1;
+  
+    
+}
+.nav-list>li{
+    list-style: none;
+    padding: 0 16px;
+}
+.nav-list>li>a{
+ text-decoration: none;
+ color: $secondary-color;
+font-size: 14px;
+font-family: 'NexaTrial';
+font-weight: 200;
+}
+
+.btn-primary{
+    width: 339px;
+    height: 37px;
+    float: right;
+    margin-top: -40px;
+}
+.btn-book-oxley{
+background: $primary-color;
+width: 134px;
+height: 37px;
+padding: 8px 12px 8px 12px;
+border-radius: 40px;
+gap: 10px;
+border: $border-primary;
+font-family: 'NexaTrial';
+font-size: 14px;
+font-weight: 800;
+color: $button-color;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+margin-right: 24px;
+}
+.btn-book-oxley:hover{
+    color:$primary-color;
+    background:$button-color;
+
+}
+.btn-book-can{
+background: $secondary-color;
+width: 181px;
+height: 37px;
+padding: 8px 12px 8px 12px;
+border-radius: 40px;
+gap: 10px;
+border: $border-sencondary;
+font-family: 'NexaTrial';
+font-size: 14px;
+font-weight: 800;
+color: $button-color;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+}
+.btn-book-can:hover{
+    color: $button-color;
+    background: $primary-color;
+}
+@media (min-width: 1024px) {
+.nav-btn{
+   display: none;
+    }
+.nav-close-btn{
+    display: none;
+}
+  }
+  .Head-three{
+    font-family: 'NexaTrial';
+    font-size: 32px;
+    color:  #6A6A6A;
+    font-weight: 900;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 117px;
+    }

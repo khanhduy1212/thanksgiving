@@ -1,69 +1,94 @@
-.ReactPlayer >video{
-    position: relative;
-    width: 838px;
-    height: 489px;
-    line-height: 21px;
+.big-room {
+  width: 1519.2px;
+  height: 469.61px;
+  padding: 0px 23px;
+  margin-top: -66px;
+  position: relative;
 }
-.btn-player{
-    position: absolute;
-    width:80px;
-    height: 80px;
-    border-radius: 50px;
-    margin-left: 379px;
-    margin-top: -284px;
-    opacity: 0.5;
-    border:1px solid #fff;
+.ReactPlayer > video {
+  width: 838px;
+  height: 489px;
+  line-height: 21px;
+}
+.btn-player {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  margin-left: 379px;
+  margin-top: -284px;
+  opacity: 0.5;
+  border: 1px solid #fff;
+}
+.Head-one {
+  color: $secondary-color;
+  padding-top: 179px;
+  position: absolute;
+  font-family: "NexaTrial";
+  font-weight: 900;
+  font-size: 48px;
+  width: 900;
+  line-height: 57px;
+  width: 500px;
+  height: 116px;
+  float: right;
+  margin-top: -58px;
+  margin-left: 970px;
+  top: 0;
+}
+.Head-one > p {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Montserrat";
+  margin-top: 24px;
+  line-height: 29px;
+}
+.btn-book-oxley-big {
+  line-height: 21px;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  margin-left: 120px;
+  width: 145px;
+  height: 51px;
+  border-radius: 40px;
+  background: $primary-color;
+  border: $border-primary;
+  margin-right: 30px;
+  top: 100%;
+  margin-top: -145px;
+  margin-left: 965px;
+  position: absolute;
+}
+.btn-book-oxley-big:hover{
+    color:$primary-color;
+    background:$button-color;
+}
+.btn-book-can-big {
+  line-height: 21px;
+  font-size: 18px;
+  width: 206px;
+  height: 51px;
+  top: 100%;
+  margin-top: -145px;
+  margin-left: 1132px;
+  border-radius: 40px;
+  font-weight: 700;
+  background: #6a6a6a;
+  color: #fff;
+  border: $border-sencondary;
+  position: absolute;
+}
+.btn-book-can-big:hover{
+    color: $button-color;
+    background: $primary-color;
+}
 
+@media screen and (max-width: 768px) {
+  .big-room {
+    width: 375px;
+  }
+  .react-player {
+    width: 375px;
+    height: 3178px;
+  }
 }
-.Head-one{
-    padding-top: 107px;
-    position: absolute;
-    font-family: 'Nexa-Trial';
-    font-size: 48px;
-    width: 900;
-    line-height: 57px;
-    width: 500px;
-    height: 116px;
-    float: right;
-    margin-left: 917px;
-    margin-top: -213px;
-}
-.Head-one>p{
-    font-size: 24px;
-    font-weight: 500;
-    font-family: 'Montserrat';
-    margin-top: 24px;
-    line-height: 29px;
-}
-.btn-book-oxley-big{
-    position: absolute;
-    line-height: 21px;
-	font-size: 18px;
-	font-weight: 700;
-	color: white;
-	margin-left:120px ;
-	width: 145px;
-	height: 51px;
-	border-radius: 40px;
-	background: #57DBC5;
-	border: 1px solid #57DBC5;
-	margin-right: 30px;
-	margin-top: -167px;
-    margin-left: 902px;
-}
-.btn-book-can-big{
-    position: absolute;
-    line-height: 21px;
-	font-size: 18px;
-	width: 206px;
-	height: 51px;
-	margin-top: -167px;
-    margin-left: 1065px;
-	border-radius: 40px;
-	font-weight: 700;
-	background: #6A6A6A;
-	color:#fff;
-	border: 1px solid #6A6A6A;
-
-}
-

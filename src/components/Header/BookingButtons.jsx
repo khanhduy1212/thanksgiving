@@ -1,6 +1,6 @@
 export default function BookingButtons() {
     return (
-      <div>
+      <div className="btn-primary">
         <button className="btn-book-oxley">
           Book Oxley Now
         </button>

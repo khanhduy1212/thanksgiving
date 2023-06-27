@@ -1,16 +1,15 @@
-import VideoFrist from "./VideoFrist"
+  import VideoFrist from "./VideoFrist"
 import HeadBig from "./HeadBig"
 import ButtonBook from "./ButtonBook"
-import { Container} from "react-bootstrap"
+
 function BigRoom() {
   return (
-    <Container>
-      <div className="row">
+      <div className="big-room">
     <VideoFrist/>
     <HeadBig/>
     <ButtonBook/>
     </div>
-    </Container>
+  
   )
 }
 
